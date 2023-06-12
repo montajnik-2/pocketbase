@@ -8,10 +8,10 @@ import (
 
 const (
 	// DefaultIdLength is the default length of the generated model id.
-	DefaultIdLength = 15
+	DefaultIdLength = 36
 
 	// DefaultIdAlphabet is the default characters set used for generating the model id.
-	DefaultIdAlphabet = "abcdefghijklmnopqrstuvwxyz0123456789"
+	DefaultIdAlphabet = "abcdefghijklmnopqrstuvwxyz0123456789-"
 )
 
 // ColumnValueMapper defines an interface for custom db model data serialization.
