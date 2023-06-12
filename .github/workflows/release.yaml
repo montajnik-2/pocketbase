@@ -36,12 +36,12 @@ jobs:
 
       - name: Run tests
         run: go test ./...
-
-      - name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@v3
-        with:
-          distribution: goreleaser
-          version: latest
-          args: release --clean
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+#       - name: Run GoReleaser
+#         uses: goreleaser/goreleaser-action@v3
+#         with:
+#           distribution: goreleaser
+#           version: latest
+#           args: release --clean
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
