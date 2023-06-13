@@ -5,12 +5,12 @@ import (
 	"log"
 	"net/mail"
 
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/mails/templates"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tokens"
-	"github.com/pocketbase/pocketbase/tools/mailer"
+	"github.com/montajnik-2/pocketbase/core"
+	"github.com/montajnik-2/pocketbase/mails/templates"
+	"github.com/montajnik-2/pocketbase/models"
+	"github.com/montajnik-2/pocketbase/models/settings"
+	"github.com/montajnik-2/pocketbase/tokens"
+	"github.com/montajnik-2/pocketbase/tools/mailer"
 )
 
 // SendRecordPasswordReset sends a password reset request email to the specified user.

@@ -3,8 +3,8 @@ package cmd_test
 import (
 	"testing"
 
-	"github.com/pocketbase/pocketbase/cmd"
-	"github.com/pocketbase/pocketbase/tests"
+	"github.com/montajnik-2/pocketbase/cmd"
+	"github.com/montajnik-2/pocketbase/tests"
 )
 
 func TestAdminCreateCommand(t *testing.T) {

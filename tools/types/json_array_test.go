@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/montajnik-2/pocketbase/tools/types"
 )
 
 func TestJsonArrayMarshalJSON(t *testing.T) {

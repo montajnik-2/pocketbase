@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/mailer"
+	"github.com/montajnik-2/pocketbase/tools/mailer"
 )
 
 func TestNewBaseApp(t *testing.T) {

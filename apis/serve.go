@@ -12,11 +12,11 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/labstack/echo/v5/middleware"
+	"github.com/montajnik-2/pocketbase/core"
+	"github.com/montajnik-2/pocketbase/migrations"
+	"github.com/montajnik-2/pocketbase/migrations/logs"
+	"github.com/montajnik-2/pocketbase/tools/migrate"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/migrations/logs"
-	"github.com/pocketbase/pocketbase/tools/migrate"
 	"golang.org/x/crypto/acme"
 	"golang.org/x/crypto/acme/autocert"
 )

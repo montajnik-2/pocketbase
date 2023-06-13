@@ -6,9 +6,9 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
+	"github.com/montajnik-2/pocketbase/core"
+	"github.com/montajnik-2/pocketbase/daos"
+	"github.com/montajnik-2/pocketbase/models"
 )
 
 // AdminLogin is an admin email/pass login form.

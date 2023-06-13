@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v5"
+	"github.com/montajnik-2/pocketbase/daos"
+	"github.com/montajnik-2/pocketbase/models"
+	"github.com/montajnik-2/pocketbase/tests"
+	"github.com/montajnik-2/pocketbase/tools/types"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/types"
 )
 
 func TestAdminAuthWithPassword(t *testing.T) {

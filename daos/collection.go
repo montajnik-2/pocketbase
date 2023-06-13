@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/montajnik-2/pocketbase/models"
+	"github.com/montajnik-2/pocketbase/models/schema"
+	"github.com/montajnik-2/pocketbase/tools/list"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/list"
 )
 
 // CollectionQuery returns a new Collection select query.

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/montajnik-2/pocketbase/daos"
+	"github.com/montajnik-2/pocketbase/models"
+	"github.com/montajnik-2/pocketbase/tools/dbutils"
+	"github.com/montajnik-2/pocketbase/tools/list"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/list"
 )
 
 // Adds _collections indexes column (if not already).

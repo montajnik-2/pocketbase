@@ -6,14 +6,14 @@ package core
 import (
 	"context"
 
+	"github.com/montajnik-2/pocketbase/daos"
+	"github.com/montajnik-2/pocketbase/models/settings"
+	"github.com/montajnik-2/pocketbase/tools/filesystem"
+	"github.com/montajnik-2/pocketbase/tools/hook"
+	"github.com/montajnik-2/pocketbase/tools/mailer"
+	"github.com/montajnik-2/pocketbase/tools/store"
+	"github.com/montajnik-2/pocketbase/tools/subscriptions"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/hook"
-	"github.com/pocketbase/pocketbase/tools/mailer"
-	"github.com/pocketbase/pocketbase/tools/store"
-	"github.com/pocketbase/pocketbase/tools/subscriptions"
 )
 
 // App defines the main PocketBase app interface.

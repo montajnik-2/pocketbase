@@ -4,9 +4,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models/settings"
+	"github.com/montajnik-2/pocketbase/core"
+	"github.com/montajnik-2/pocketbase/daos"
+	"github.com/montajnik-2/pocketbase/models/settings"
 )
 
 // SettingsUpsert is a [settings.Settings] upsert (create/update) form.
@@ -58,7 +58,7 @@ func (form *SettingsUpsert) Submit(interceptors ...InterceptorFunc[*settings.Set
 	return runInterceptors(form.Settings, func(s *settings.Settings) error {
 		form.Settings = s
 
-		oldSettings, err := form.app.Settings().Clone();
+		oldSettings, err := form.app.Settings().Clone()
 		if err != nil {
 			return err
 		}

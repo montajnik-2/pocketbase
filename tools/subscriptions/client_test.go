@@ -3,7 +3,7 @@ package subscriptions_test
 import (
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/subscriptions"
+	"github.com/montajnik-2/pocketbase/tools/subscriptions"
 )
 
 func TestNewDefaultClient(t *testing.T) {

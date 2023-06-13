@@ -7,8 +7,8 @@ import (
 	"errors"
 	"time"
 
+	"github.com/montajnik-2/pocketbase/models"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
 )
 
 // New creates a new Dao instance with the provided db builder

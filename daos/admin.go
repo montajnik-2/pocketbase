@@ -3,10 +3,10 @@ package daos
 import (
 	"errors"
 
+	"github.com/montajnik-2/pocketbase/models"
+	"github.com/montajnik-2/pocketbase/tools/list"
+	"github.com/montajnik-2/pocketbase/tools/security"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/security"
 )
 
 // AdminQuery returns a new Admin select query.
