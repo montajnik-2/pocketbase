@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/forms"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/security"
+	"github.com/montajnik-2/pocketbase/forms"
+	"github.com/montajnik-2/pocketbase/models"
+	"github.com/montajnik-2/pocketbase/tests"
+	"github.com/montajnik-2/pocketbase/tools/security"
 )
 
 func TestRecordPasswordResetConfirmValidateAndSubmit(t *testing.T) {

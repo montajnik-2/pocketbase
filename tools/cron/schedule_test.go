@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pocketbase/pocketbase/tools/cron"
+	"github.com/montajnik-2/pocketbase/tools/cron"
 )
 
 func TestNewMoment(t *testing.T) {

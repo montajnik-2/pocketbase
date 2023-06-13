@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"testing"
 
+	"github.com/montajnik-2/pocketbase/tools/search"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/tools/search"
 )
 
 func TestFilterDataBuildExpr(t *testing.T) {

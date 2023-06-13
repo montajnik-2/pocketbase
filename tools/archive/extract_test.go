@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/archive"
+	"github.com/montajnik-2/pocketbase/tools/archive"
 )
 
 func TestExtractFailure(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/forms"
+	"github.com/montajnik-2/pocketbase/forms"
 )
 
 func TestRealtimeSubscribeValidate(t *testing.T) {

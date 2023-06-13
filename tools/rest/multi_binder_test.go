@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/labstack/echo/v5"
-	"github.com/pocketbase/pocketbase/tools/rest"
+	"github.com/montajnik-2/pocketbase/tools/rest"
 )
 
 func TestBindBody(t *testing.T) {
