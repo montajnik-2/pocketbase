@@ -98,9 +98,9 @@ func (m *BaseModel) GetUpdated() types.DateTime {
 
 // RefreshId generates and sets a new model id.
 //
-// The generated id is a cryptographically random 15 characters length string.
+// The generated id is a cryptographically random uuid.
 func (m *BaseModel) RefreshId() {
-	m.Id = security.RandomStringWithAlphabet(DefaultIdLength, DefaultIdAlphabet)
+	m.Id = security.RandomUuid()
 }
 
 // RefreshCreated updates the model Created field with the current datetime.

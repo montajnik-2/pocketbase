@@ -5,6 +5,8 @@ import (
 	"math/big"
 	mathRand "math/rand"
 	"time"
+
+	"github.com/google/uuid"
 )
 
 const defaultRandomAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
@@ -37,6 +39,10 @@ func RandomStringWithAlphabet(length int, alphabet string) string {
 	}
 
 	return string(b)
+}
+
+func RandomUuid() string {
+	return uuid.New().String()
 }
 
 // PseudorandomString generates a pseudorandom string with the specified length.
