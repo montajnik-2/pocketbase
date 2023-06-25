@@ -13,6 +13,7 @@ import (
 	"github.com/montajnik-2/pocketbase/models"
 	"github.com/montajnik-2/pocketbase/resolvers"
 	"github.com/montajnik-2/pocketbase/tools/search"
+	"github.com/montajnik-2/pocketbase/tools/security"
 	"github.com/pocketbase/dbx"
 )
 
@@ -162,6 +163,7 @@ func (api *recordApi) create(c echo.Context) error {
 	// temporary save the record and check it against the create rule
 	if requestData.Admin == nil && collection.CreateRule != nil {
 		testRecord := models.NewRecord(collection)
+		testRecord.SetId(security.RandomUuid())
 
 		// replace modifiers fields so that the resolved value is always
 		// available when accessing requestData.Data using just the field name
@@ -205,6 +207,8 @@ func (api *recordApi) create(c echo.Context) error {
 	}
 
 	record := models.NewRecord(collection)
+	record.SetId(security.RandomUuid())
+
 	form := forms.NewRecordUpsert(api.app, record)
 	form.SetFullManageAccess(hasFullManageAccess)
 
